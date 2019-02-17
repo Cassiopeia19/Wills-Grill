@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Will's Grill</title>
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+  <script>
+    var __adobewebfontsappname__ = "dreamweaver"
+  </script>
+  <script src="js/app.js"></script>
+</head>
+
+<body>
+  <!--top navigation bar to guide the user thru the site-->
+  <div class="nav">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT WILL'S GRILL</a></li>
+      <li><a href="menu.html">MENU</a></li>
+      <li><a href="merch.html">MERCH</a></li>
+      <li><a href="communitysupport.html">COMMUNITY SUPPORT</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </div>
+  <section>
+
+    <!--call that generates the on-screen blackboard form-->
+
+    <div class="blackboard">
+
+      <div class="form">
+
+        <p>
+          <label>Name: </label>
+          <input type="text" name="name" />
+        </p>
+        <p>
+          <label>Email: </label>
+          <input type="text" name="email" />
+        </p>
+        <p>
+          <label>Phone: </label>
+          <input type="text" name="phone" />
+        </p>
+        <p><label>Subject: </label>
+          <input type="text" name="subject" />
+        </p>
+        <p>
+          <label>Message: </label>
+          <textarea name="message"></textarea>
+        </p>
+        <p>
+          <!--once the user clicks 'submit', it calls an alert statement-->
+          <script>
+            function submit() {
+              window.alert("Thank you for contacting us!" + "\n" +"We will reach out to you within 7-10 business days.");
+            }
+          </script>
+          <input type="button" value="send" onclick="submit()">
+          <input type="reset" value="reset">
+        </p>
+      </div>
+    </div>
+  </section>
+</body>
+<footer>
+  <!--bottom navigation bar to guide the user thru the site-->
+  <div class="nav">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT WILL'S GRILL</a></li>
+      <li><a href="menu.html">MENU</a></li>
+      <li><a href="merch.html">MERCH</a></li>
+      <li><a href="communitysupport.html">COMMUNITY SUPPORT</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </div>
+</footer>
+
+<p style="text-align:center;">
+  <!--documented copyright-->
+  All content of this website is subject to copyright ©2018
+</p>
+
+</html>

@@ -1,0 +1,297 @@
+@charset "utf-8";
+
+header {
+	background-color: orange;
+	width: 100%;
+	height: 20%;
+	border-radius: 25px;
+}
+
+body {
+	background: red;
+	background: linear-gradient(140deg, red 55%, yellow 40%);
+	background-repeat: repeat-x;
+	background-color: yellow;
+	margin-left: 2%;
+	margin-right: 2%;
+	border-right-color: black;
+	border-left-color: black;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-style: oblique;
+	font-weight: 400;
+	color: #000000;
+	font-size: large;
+}
+
+.nav ul {
+	list-style-type: none;
+	padding: 0;
+	width: 100%;
+}
+
+.nav ul li {
+	float: left;
+}
+
+.nav {
+	width: 100%;
+	text-align: center;
+	vertical-align: bottom;
+	display: flex;
+	border-radius: 25px;
+	background-color: orange;
+	overflow: hidden;
+	height: auto;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+.nav ul li a {
+	display: inline-block;
+	font-size: 25px;
+	margin: 20px;
+	line-height: normal;
+	vertical-align: super;
+	padding: .5em;
+	border-right: 1px solid #000000;
+	border-radius: .5;
+	color: black;
+}
+
+.nav ul a:focus {
+	color: red;
+	border-color: red;
+}
+
+.asidesection {
+	text-align: center;
+	font-size: xx-large;
+}
+
+.columns {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+	-moz-column-count: 3;
+	-webkit-column-count: 3;
+	column-count: 3;
+}
+
+div.a {
+	text-indent: 50px;
+}
+
+.barbecue {
+	height: 400px;
+	width: 500px;
+	float: left;
+	margin: 2%;
+}
+
+.words {
+	background: rgba(256, 256, 256, .5);
+	border: 2px solid orange;
+	border-radius: 5px;
+	width: auto;
+	margin: 2%;
+	overflow: auto;
+	padding: 1%;
+}
+img {
+	border-radius: 20px;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 10px;
+}
+
+/*Css stuff to make merch slideshow work*/
+
+.content {
+	max-width: 980px;
+	margin: auto;
+}
+
+.container {
+	position: relative;
+	margin-top:2%;
+	margin-bottom:2%;
+}
+
+container:hover {
+	display: inline-block
+}
+
+.button {
+	border: none;
+	display: inline-block;
+	padding: 8px 16px;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none;
+	color: inherit;
+	background-color: inherit;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+}
+
+.button:hover {
+	color: #000!important;
+	background-color: #ccc!important;
+}
+
+.black:hover {
+	color: #fff!important;
+	background-color: #000!important
+}
+
+.right-button {
+	position: absolute;
+	top: 50%;
+	right: 26%;
+	transform: translate(0%, -50%);
+	-ms-transform: translate(0%, -50%)
+}
+
+.left-button {
+	position: absolute;
+	top: 50%;
+	left: 26%;
+	transform: translate(0%, -50%);
+	-ms-transform: translate(-0%, -50%)
+}
+
+/*contact page's form*/
+form {
+        height: 100%;
+        /*background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/concrete-wall-background.jpg) center center fixed;*/
+        /*background-size: cover;*/
+}
+
+.blackboard {
+        position: relative;
+        width: 640px;
+	    margin: 7% auto;
+        border: tan solid 12px;
+        border-top: #bda27e solid 12px;
+        border-left: #b19876 solid 12px;
+        border-bottom: #c9ad86 solid 12px;
+        box-shadow: 0px 0px 6px 5px rgba(58, 18, 13, 0), 0px 0px 0px 2px #c2a782, 0px 0px 0px 4px #a58e6f, 3px 4px 8px 5px rgba(0, 0, 0, 0.5);
+        background-image: radial-gradient( circle at left 30%, rgba(34, 34, 34, 0.3), rgba(34, 34, 34, 0.3) 80px, rgba(34, 34, 34, 0.5) 100px, rgba(51, 51, 51, 0.5) 160px, rgba(51, 51, 51, 0.5)), linear-gradient( 215deg, transparent, transparent 100px, #222 260px, #222 320px, transparent), radial-gradient( circle at right, #111, rgba(51, 51, 51, 1));
+        background-color: #333;
+}
+
+.blackboard:before {
+        box-sizing: border-box;
+        display: block;
+	    position: absolute;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient( 175deg, transparent, transparent 40px, rgba(120, 120, 120, 0.1) 100px, rgba(120, 120, 120, 0.1) 110px, transparent 220px, transparent), linear-gradient( 200deg, transparent 80%, rgba(50, 50, 50, 0.3)), radial-gradient( ellipse at right bottom, transparent, transparent 200px, rgba(80, 80, 80, 0.1) 260px, rgba(80, 80, 80, 0.1) 320px, transparent 400px, transparent);
+        border: #2c2c2c solid 2px;
+        content: "Contact Will's Grill";
+        font-family: 'Permanent Marker', cursive;
+        font-size: 2.2em;
+        color: rgba(238, 238, 238, 0.7);
+        text-align: center;
+        padding-top: 20px;
+}
+.form {
+
+        padding: 70px 20px 20px;
+}
+p {
+        position: relative;
+        margin-bottom: 1em;
+}
+
+label {
+        vertical-align: middle;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 1.6em;
+        color: rgba(238, 238, 238, 0.7);
+}
+
+p:nth-of-type(5) > label {
+        vertical-align: top;
+}
+
+input,
+textarea {
+        vertical-align: middle;
+        padding-left: 10px;
+        background: none;
+        border: none;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 1.6em;
+        color: rgba(238, 238, 238, 0.8);
+        line-height: .6em;
+        outline: none;
+}
+
+textarea {
+        height: 120px;
+        font-size: 1.4em;
+        line-height: 1em;
+        resize: none;
+}
+
+input[type="submit"] {
+        cursor: pointer;
+	    color: rgba(238, 238, 238, 0.7);
+        line-height: 1em;
+        padding: 0;
+}
+
+input[type="submit"]:focus {
+        background: rgba(238, 238, 238, 0.2);
+        color: rgba(238, 238, 238, 0.2);
+}
+
+::-moz-selection {
+        background: rgba(238, 238, 238, 0.2);
+        color: rgba(238, 238, 238, 0.2);
+        text-shadow: none;
+}
+
+::selection {
+        background: rgba(238, 238, 238, 0.4);
+        color: rgba(238, 238, 238, 0.3);
+        text-shadow: none;
+}
+/*end of code for contact form*/
+
+/*Menu page CSS */
+.collapsible {
+    background-color: #000;
+    color: #FF0004;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+.active, .collapsible:hover {
+    background-color: #555;
+    border-radius: 20px;
+}
+.menu{
+	display: none;
+    	overflow:auto;
+    	background-color: #f1f1f1;
+    	border-radius: 20px;
+    	max-width:980px;
+    	margin:auto;
+}
